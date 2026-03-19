@@ -1,23 +1,130 @@
-<!Doctype html >
-<html>
-    <head>
-        <title> Newsletter </title>
-    </head>
-    <body>
-        <header>
-            <h1> Lakin's Newsletter </h1>
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-            </nav>
-        </header>
-        <main>
-            <section>
-                <h2></h2>
-            </section>
-        </main>
-    </body>
-    
-    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  
+    <title>Newsletter Signup</title>
+</head>
+<body>
+
+    <!-- STRUCTURE: Header -->
+    <header>
+        <h1>LakinTech Newsletter</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Articles</a>
+           <a href="#">Contact Us</a>
+           
+        </nav>
+    </header>
+
+    <main>
+      <section>
+       <h2>Signup for our Weekly Updates</h2>
+
+       <form action="#" method="post">
+                
+               <!-- Full Name: Text -->
+       <div>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+       </div>
+
+                <!-- Email: Email -->
+  <div>
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+  </div>
+
+                <!-- Age: Number -->
+  <div>
+   <label for="age">Age:</label>
+   <input type="number" id="age" name="age">
+  </div>
+
+                <!-- How did you hear?: Select -->
+                <div>
+       <label for="source">How did you hear about us?</label>
+     <select id="source" name="source">
+     <option value="social-media">Social Media</option>
+     <option value="friend">From a Friend</option>
+     <option value="advert">Ads</option>
+     <option value="other">Other</option>
+      </select>
+    </div>
+
+                <!-- Interests: Checkboxes -->
+                <div>
+   <label>Interests (Select all that apply):</label>
+      <input type="checkbox" id="interest1" name="interests" value="ai">
+                    <label for="interest1" style="display:inline; font-weight:normal;">AI News</label><br>
+                    
+                    <input type="checkbox" id="interest2" name="interests" value="webdev">
+                    <label for="interest2" style="display:inline; font-weight:normal;">Web Development</label><br>
+                    
+                    <input type="checkbox" id="interest3" name="interests" value="startups">
+                    <label for="interest3" style="display:inline; font-weight:normal;">Startups</label>
+                </div>
+
+                <!-- Frequency: Radio -->
+                <div>
+                    <label>Subscription Frequency:</label>
+                    <input type="radio" id="daily" name="frequency" value="daily">
+                    <label for="daily" style="display:inline; font-weight:normal;">Daily</label>
+                    
+                    <input type="radio" id="weekly" name="frequency" value="weekly" checked>
+                    <label for="weekly" style="display:inline; font-weight:normal;">Weekly</label>
+                </div>
+
+                <!-- Comments: Textarea -->
+                <div>
+                    <label for="comments">Any suggestions or comments?</label>
+                    <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+                </div>
+
+                <!-- Subscribe button: Submit -->
+                <button type="submit">Subscribe</button>
+
+            </form>
+        </section>
+
+        <!-- STRUCTURE: Section 2 - The Table -->
+        <section>
+            <h2>Newsletter Statistics</h2>
+            <table>
+                <caption>Popular Topics This Week</caption>
+                <thead>
+                    <tr>
+                        <th>Topic</th>
+                        <th>Articles</th>
+                        <th>Most Popular Day</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>AI News</td>
+                        <td>12</td>
+                        <td>Monday</td>
+                    </tr>
+                    <tr>
+                        <td>Web Dev</td>
+                        <td>8</td>
+                        <td>Wednesday</td>
+                    </tr>
+                    <tr>
+                        <td>Startups</td>
+                        <td>5</td>
+                        <td>Friday</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <!-- STRUCTURE: Footer -->
+    <footer>
+        <p>&copy; 2026 LakinTech Media. All rights reserved.</p>
+    </footer>
+
+</body>
 </html>
