@@ -1,0 +1,34 @@
+
+body{
+    font font-family: timesnewroman, serif;
+    background-color: lightblue;
+    color: blockquote;
+}
+h1{
+    color:rgb(206, 121, 9);
+    font-size: 30px;
+    text-align: center;
+    font-family:'Gill Sans MT';
+}
+h2{
+    color:rgb(230, 83, 193);
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: left;
+}
+p1{
+    color:black;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h4{
+    color:rgb(238, 99, 99);
+    font-size: 20px;
+    font-family: 'Gill Sans MT';
+}
+img{
+    border: 30px solid slategray;
+    margin: auto;
+    padding: 10px;
+    height: auto;
+}
