@@ -12,33 +12,29 @@ body {
   margin: 0 auto;
 }
 
-/* Common box styles */
 .box {
   border-radius: 6px;
 }
 
-/* Box 1: small margin, moderate padding, solid border, light coral bg */
 .box1 {
   background-color: #f8b195;
-  margin: 20px;              /* space outside the box */
-  padding: 18px;             /* space inside the box */
-  border: 4px solid #c06c84; /* border appearance */
+  margin: 20px;            
+  padding: 18px;            
+  border: 4px solid #c06c84;
 }
 
-/* Box 2: larger vertical margin, more padding, dashed border, blue bg */
 .box2 {
   background-color: #355c7d;
   color: #fff;
-  margin: 40px 10px;         /* top/bottom 40px, left/right 10px */
-  padding: 28px 16px;        /* top/bottom 28px, left/right 16px */
+  margin: 40px 10px;        
+  padding: 28px 16px;       
   border: 5px dashed #6cace4;
 }
 
-/* Box 3: horizontal margin, small padding, double border, violet bg */
 .box3 {
   background-color: #6c5b7b;
   color: #fff;
-  margin: 10px 60px;         /* 10px top/bottom, 60px left/right */
-  padding: 10px 40px;        /* 10px top/bottom, 40px left/right */
+  margin: 10px 60px;         
+  padding: 10px 40px;        
   border: 3px double #b895c1;
 }
