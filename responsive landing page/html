@@ -1,1 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VibeStore | Lakin's Trendy E-Commerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header class="navbar">
+        <div class="logo">VibeStore</div>
+        <nav class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Deals</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Upgrade Your Style</h1>
+            <p>Discover our brightest collection of the summer. Bold colors for bold people.</p>
+            <button class="cta-btn">Shop Now</button>
+        </div>
+    </section>
+
+    <section class="services">
+        <h2>Our Top Services</h2>
+        <div class="card-container">
+            <div class="card">
+                <div class="icon">🚀</div>
+                <h3>Fast Delivery</h3>
+                <p>We ship your favorite vibes across the city in 24 hours.</p>
+            </div>
+            <div class="card">
+                <div class="icon">💎</div>
+                <h3>Premium Quality</h3>
+                <p>Only the best materials for our community. Guaranteed.</p>
+            </div>
+            <div class="card">
+                <div class="icon">🎧</div>
+                <h3>24/7 Support</h3>
+                <p>Our team is here to help you anytime, anywhere.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Lakin's VibeStore. Built with Passion.</p>
+    </footer>
+
+</body>
+</html>
