@@ -1,0 +1,99 @@
+• {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ font-family: 'Arial Black', Gadget, sans-serif;
+
+  background: linear-gradient(135deg, #6e8efb, #a777e3, #ff0080);
+  height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.container {
+ /* Bright Orange/Coral Container */
+ background-color: #ff8c00;
+ width: 400px;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  border: 4px solid #fff;
+}
+
+h2 {
+  text-align: center;
+ margin-bottom: 25px;
+ color: #fff;
+ text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px #ff0080;
+}
+
+.input-box {
+  display: flex;
+ gap: 10px;
+ margin-bottom: 25px;
+}
+
+input {
+  flex: 1;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+ outline: none;
+ font-weight: bold;
+  color: #ff0080;
+}
+
+button #add-btn {
+ padding: 15px 20px;
+ background-color: #39ff14;
+ color: #000;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+ font-weight: 900;
+  transition: transform 0.2s;
+}
+
+button#add-btn:hover {
+ transform: scale(1.1);
+ background-color: #32cd32;
+}
+
+ul {
+ list-style: none;
+}
+
+li {
+ background: #ffff00;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+  padding: 15px;
+ margin-bottom: 12px;
+ border-radius: 10px;
+ color: #000;
+ font-weight: bold;
+ border-left: 5px solid #ff0080;
+ box-shadow: 5px 5px 0px #000;
+}
+
+/* Bright Red Delete Button */
+.delete-btn {
+ background-color: #ff0000;
+ color: white;
+border: 2px solid #fff;
+padding: 8px 12px;
+ border-radius: 8px;
+ cursor: pointer;
+ font-weight: bold;
+}
+
+.delete-btn:hover {
+   background-color: #b30000;
+}
