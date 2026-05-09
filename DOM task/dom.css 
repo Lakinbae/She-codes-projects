@@ -15,7 +15,7 @@ body {
 }
 
 .container {
- /* Bright Orange/Coral Container */
+ 
  background-color: #ff8c00;
  width: 400px;
   padding: 30px;
@@ -83,7 +83,7 @@ li {
  box-shadow: 5px 5px 0px #000;
 }
 
-/* Bright Red Delete Button */
+
 .delete-btn {
  background-color: #ff0000;
  color: white;
