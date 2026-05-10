@@ -1,62 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do List DOM</title>
-    <link rel="stylesheet" href="style.css">
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List DOM</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="container">
-        <h2>To-Do List</h2>
-        <div class="input-box">
-            <input type="text" id="todo-input" placeholder="Add a new task...">
-            <button id="add-btn">Add</button>
-        </div>
-        <ul id="todo-list"></ul>
-    </div>
+     <div class="container">
+     <h2>To-Do List</h2>
+     <div class="input-box">
+     <input type="text" id="todo-input" placeholder="Add a new task...">
+     <button id="add-btn">Add</button>
+     </div>
+     <ul id="todo-list"></ul>
+         </div>
 
-    <script>
-       
-        const input = document.getElementById('todo-input');
-        const addBtn = document.getElementById('add-btn');
-        const todoList = document.getElementById('todo-list');
+ <script>
 
-        function addTask() {
-            const taskText = input.value.trim();
+    const input = document.getElementById('todo-input');
+     const addBtn = document.getElementById('add-btn');
+    const todoList = document.getElementById('todo-list');
 
-            if (taskText === "") {
-                alert("Please enter a task.");
-                return;
-            }
+    function addTask() {
+    const taskText = input.value.trim();
 
-            const li = document.createElement('li');
+     if (taskText === "") {
+     alert("Please enter a task.");
+     return;
+     }
 
-            li.innerHTML = `
-                <span>${taskText}</span>
-                <button class="delete-btn">Delete</button>
-            `;
+     const li = document.createElement('li');
 
-            const deleteBtn = li.querySelector('.delete-btn');
-            deleteBtn.onclick = function() {
-                li.remove();
-            };
+     li.innerHTML = `
+    <span>${taskText}</span>
+     <button class="delete-btn">Delete</button>
+     `;
 
-            todoList.appendChild(li);
+     const deleteBtn = li.querySelector('.delete-btn');
+     deleteBtn.onclick = function() {
+     li.remove();
+    };
 
-            input.value = "";
-            input.focus();
-        }
+     todoList.appendChild(li);
 
-        addBtn.addEventListener('click', addTask);
+     input.value = "";
+     input.focus();
+     }
 
-        input.addEventListener('keypress', function(e) {
-            if (e.key === 'Enter') {
-                addTask();
-            }
-        });
-    </script>
+     addBtn.addEventListener('click', addTask);
+
+     input.addEventListener('keypress', function
+    if (e.key === 'Enter') {
+     addTask();
+     }
+    });
+</script>
 
 </body>
 </html>
